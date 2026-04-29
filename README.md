@@ -3,7 +3,7 @@
 ## 📌 Overview
 
 This repository contains lab assignments for the course **Advanced Computer Networks (PCS223)** implemented using **Cisco Packet Tracer** and packet analysis tools.
-It includes practical implementation and analysis of networking concepts such as **DHCP configuration**, **static and dynamic routing (RIP, OSPF)**, and **protocol-level packet inspection**.
+It includes practical implementation and analysis of networking concepts such as **DHCP configuration**, **static and dynamic routing (RIP, OSPF, BGP)**, and **protocol-level packet inspection**.
 
 ---
 
@@ -21,7 +21,7 @@ It includes practical implementation and analysis of networking concepts such as
 
 * Implemented different network topologies (Bus, Ring, Switch-based)
 * Performed packet-level analysis (DNS, HTTP, UDP)
-* Studied protocol flow and communication behavior 
+* Studied protocol flow and communication behavior
 
 ---
 
@@ -33,7 +33,7 @@ It includes practical implementation and analysis of networking concepts such as
   * IP allocation using DHCP pool
   * DNS configuration
   * Lease time management
-* Verified dynamic IP assignment on clients 
+* Verified dynamic IP assignment on clients
 
 ---
 
@@ -41,7 +41,7 @@ It includes practical implementation and analysis of networking concepts such as
 
 * Configured static routes between networks
 * Connected multiple LANs using manual routing
-* Verified communication across subnetted networks 
+* Verified communication across subnetted networks
 
 ---
 
@@ -49,7 +49,7 @@ It includes practical implementation and analysis of networking concepts such as
 
 * Implemented **RIP Version 2** dynamic routing
 * Configured routers and verified routing tables
-* Tested connectivity between multiple LANs 
+* Tested connectivity between multiple LANs
 
 ---
 
@@ -61,7 +61,20 @@ It includes practical implementation and analysis of networking concepts such as
 
   * `show ip route`
   * `show ip ospf neighbor`
-* Tested connectivity between LANs 
+* Tested connectivity between LANs
+
+---
+
+### 🔹 Assignment 8 – BGP Routing
+
+* Configured **BGP (Border Gateway Protocol)** for inter-AS routing
+* Implemented **eBGP between multiple Autonomous Systems (AS 100, 200, 300)**
+* Established neighbor relationships between routers
+* Verified routing using:
+
+  * `show ip bgp`
+  * `show ip bgp summary`
+* Tested end-to-end connectivity between networks
 
 ---
 
@@ -69,7 +82,7 @@ It includes practical implementation and analysis of networking concepts such as
 
 * Cisco Packet Tracer
 * Wireshark
-* Networking Protocols: DHCP, RIP, OSPF
+* Networking Protocols: DHCP, RIP, OSPF, BGP
 * Packet Analysis: ICMP, TCP, UDP, DNS, HTTP, ARP
 
 ---
@@ -80,6 +93,7 @@ It includes practical implementation and analysis of networking concepts such as
 * Implementation of static and dynamic routing protocols
 * Configuration of DHCP for automatic IP allocation
 * Analysis of real network packets using Wireshark
+* Understanding inter-domain routing using BGP
 * Hands-on experience with network topology design
 
 ---
